@@ -112,3 +112,32 @@ body { background-color:#FFFFFF;
 .footer-logo-span {
     color: #F4F4FD;
 }
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+.header-container {
+    display: flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav-one {
+    display: flex;
+    align-items: center;
+}
+.logo-margin {
+    margin-right: 100px;
+}
+.nav-ul {
+    display: flex;
+    gap: 40px;
+}
+.nav-li {
+    padding: 24px 0;
+}
+.address-ul {
+    display: flex;
+    gap: 40px;
+}
