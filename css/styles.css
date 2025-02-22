@@ -133,7 +133,7 @@ body { background-color:#FFFFFF;
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    margin: 0 15px;
 }
 .nav-one {
     display: flex;
@@ -147,7 +147,7 @@ body { background-color:#FFFFFF;
     gap: 40px;
 }
 .nav-li {
-    padding: 24px 0;
+    margin: 24px 0;
 }
 .address-ul {
     display: flex;
