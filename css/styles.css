@@ -48,6 +48,7 @@ body { background-color:#FFFFFF;
 /* main bölümü */
 .section-one {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .main-title {
     font-size: 56px;
@@ -150,7 +151,4 @@ body { background-color:#FFFFFF;
 .address-ul {
     display: flex;
     gap: 40px;
-}
-section {
-    padding: 188px 0;
 }
