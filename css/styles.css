@@ -12,6 +12,7 @@ body { background-color:#FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 } 
 .logo-span {
     color: #2e2f42;
@@ -138,9 +139,9 @@ body { background-color:#FFFFFF;
     display: flex;
     align-items: center;
 }
-.logo-margin {
-    margin-right: 76px;
-}
+/* .logo-margin {
+    
+} */
 .nav-ul {
     display: flex;
     gap: 40px;
