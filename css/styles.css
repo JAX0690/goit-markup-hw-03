@@ -1,3 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+
+  img {
+    display: block;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 body { background-color:#FFFFFF; 
     color:#434455; 
     font-family: 'Roboto',sans-serif;
@@ -130,11 +149,12 @@ body { background-color:#FFFFFF;
 }
 .header-container {
     display: flex;
+    padding: 0 15px;
 }
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    flex-direction: column;
 }
 .nav-one {
     display: flex;
@@ -147,7 +167,7 @@ body { background-color:#FFFFFF;
     display: flex;
     gap: 40px;
 }
-.nav-li {
+.nav-list {
     padding: 24px 0;
 }
 .address-ul {
