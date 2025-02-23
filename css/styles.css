@@ -165,7 +165,5 @@ body { background-color:#FFFFFF;
     gap: 24px;
 }
 .section-two-li {
-    flex: 1;
-    background-color: #ffffff;
-    flex-basis: calc((100% - 72px) / 4);
+    width:calc(100%-72px)4;
 }
