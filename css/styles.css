@@ -143,17 +143,22 @@ body { background-color:#FFFFFF;
 .our-team-box {
     padding: 32px 0;
 }
-/* footer bölümü */
-#footer {
+/* footer bölümü */ */
+
+/* #footer {
     color: #2E2F42
-}
+} */
+
 .footer-paragraph {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
+
 }
 .footer-logo-span {
     color: #F4F4FD;
@@ -174,9 +179,6 @@ body { background-color:#FFFFFF;
     display: flex;
     align-items: center;
 }
-/* .logo-margin {
-    
-} */
 .nav-ul {
     display: flex;
     gap: 40px;
@@ -225,17 +227,20 @@ body { background-color:#FFFFFF;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-
 }
 .our-portfolio-list {
     flex-basis: calc((100% - 72px) / 4);
-    flex: 1;
-  background-color: #ffffff;
+    flex: 1; #fazladan ekledim
+    background-color: #ffffff; #fazladan ekledim
 }
 .our-portfolio-box {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  
+
+}
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
 }
